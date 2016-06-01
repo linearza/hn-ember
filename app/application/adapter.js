@@ -6,5 +6,5 @@ const {
 } = Ember;
 
 export default FirebaseAdapter.extend({
-  firebase: inject.service(),
+  firebase: inject.service()
 });

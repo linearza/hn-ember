@@ -4,8 +4,10 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'hn-ember',
     environment: environment,
-    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/',
+    contentSecurityPolicy: {
+      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com"
+    },
+    firebase: 'https://hacker-news.firebaseio.com/v0',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
